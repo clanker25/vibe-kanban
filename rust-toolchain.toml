@@ -1,0 +1,11 @@
+[toolchain]
+channel = "nightly-2026-08-01"
+components = [
+    "rustfmt",
+    "rustc",
+    "rust-analyzer",
+    "rust-src",
+    "rust-std",
+    "cargo",
+]
+profile = "default"
